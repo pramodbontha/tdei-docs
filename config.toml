@@ -1,4 +1,4 @@
-baseURL = 'https://pramodbontha.github.io/tdei-docs/'
+baseURL = 'https://pramodbontha.github.io/tdei-docs'
 languageCode = 'en-us'
 title = 'tdei-docs'
 custom_css = ["css/custom.css"]
