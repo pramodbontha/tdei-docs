@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Customizes on tdei-docs</title>
+    <link>https://pramodbontha.github.io/tdei-docs/customize/</link>
+    <description>Recent content in Customizes on tdei-docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Oct 2022 12:06:23 +0200</lastBuildDate><atom:link href="https://pramodbontha.github.io/tdei-docs/customize/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overview</title>
+      <link>https://pramodbontha.github.io/tdei-docs/customize/overview/</link>
+      <pubDate>Thu, 13 Oct 2022 12:06:23 +0200</pubDate>
+      
+      <guid>https://pramodbontha.github.io/tdei-docs/customize/overview/</guid>
+      <description>Overview There are multiple ways to customize Bootstrap. Your best path can depend on your project, the complexity of your build tools, the version of Bootstrap you&amp;rsquo;re using, browser support, and more.
+Our two preferred methods are:
+Using Bootstrap via package manager so you can use and extend our source files. Using Bootstrap&amp;rsquo;s compiled distribution files or jsDelivr so you can add onto or override Bootstrap&amp;rsquo;s styles. While we cannot go into details here on how to use every package manager, we can give some guidance on using Bootstrap with your own Sass compiler.</description>
+    </item>
+    
+    <item>
+      <title>Sass</title>
+      <link>https://pramodbontha.github.io/tdei-docs/customize/sass/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pramodbontha.github.io/tdei-docs/customize/sass/</guid>
+      <description>Utilize our source Sass files to take advantage of variables, maps, mixins, and more.
+File structure Whenever possible, avoid modifying Bootstrap&amp;rsquo;s core files. For Sass, that means creating your own stylesheet that imports Bootstrap so you can modify and extend it. Assuming you&amp;rsquo;re using a package manager like npm, you&amp;rsquo;ll have a file structure that looks like this:
+your-project/ ├── scss │ └── custom.scss └── node_modules/ └── bootstrap ├── js └── scss If you&amp;rsquo;ve downloaded our source files and aren&amp;rsquo;t using a package manager, you&amp;rsquo;ll want to manually create something similar to that structure, keeping Bootstrap&amp;rsquo;s source files separate from your own.</description>
+    </item>
+    
+  </channel>
+</rss>
