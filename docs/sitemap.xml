@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pramodbontha.github.io/tdei-docs/getting-started/contents/</loc>
+    <loc>/getting-started/contents/</loc>
     <lastmod>2022-10-13T12:06:23+02:00</lastmod>
   </url><url>
-    <loc>https://pramodbontha.github.io/tdei-docs/customize/</loc>
+    <loc>/customize/</loc>
     <lastmod>2022-10-13T12:06:23+02:00</lastmod>
   </url><url>
-    <loc>https://pramodbontha.github.io/tdei-docs/getting-started/download/</loc>
+    <loc>/getting-started/download/</loc>
     <lastmod>2022-10-13T12:06:23+02:00</lastmod>
   </url><url>
-    <loc>https://pramodbontha.github.io/tdei-docs/getting-started/</loc>
+    <loc>/getting-started/</loc>
     <lastmod>2022-10-13T12:06:23+02:00</lastmod>
   </url><url>
-    <loc>https://pramodbontha.github.io/tdei-docs/customize/overview/</loc>
+    <loc>/customize/overview/</loc>
     <lastmod>2022-10-13T12:06:23+02:00</lastmod>
   </url><url>
-    <loc>https://pramodbontha.github.io/tdei-docs/getting-started/introduction/</loc>
+    <loc>/getting-started/introduction/</loc>
     <lastmod>2022-10-13T12:06:07+02:00</lastmod>
   </url><url>
-    <loc>https://pramodbontha.github.io/tdei-docs/</loc>
+    <loc>/</loc>
     <lastmod>2022-10-13T11:16:06+02:00</lastmod>
   </url><url>
-    <loc>https://pramodbontha.github.io/tdei-docs/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>https://pramodbontha.github.io/tdei-docs/customize/sass/</loc>
+    <loc>/customize/sass/</loc>
   </url><url>
-    <loc>https://pramodbontha.github.io/tdei-docs/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>
