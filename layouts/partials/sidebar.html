@@ -1,0 +1,65 @@
+<style>
+    .bd-sidebar {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 2rem;
+        display: block !important;
+        height: calc(100vh - 6rem);
+        padding-left: 0.25rem;
+        margin-left: -0.25rem;
+        overflow-y: auto;
+    }
+    .bd-links-link {
+        padding: 0.1875rem 0.5rem;
+        margin-top: 0.125rem;
+        margin-left: 0.125rem;
+        color: rgba(0,0,0,0.65);
+        text-decoration: none;
+    }
+    
+    .rounded {
+        border-radius: 5px !important;
+    }
+    
+    .bd-links-link:hover, .bd-links-link:focus, .bd-links-link.active {
+        color: rgba(0,0,0,0.85);
+        background-color:lightgrey;
+    }
+</style>
+
+<div class="bd-sidebar">
+{{- $url := split .Permalink "/" -}}
+  {{- $page_slug := index $url (sub (len $url) 2) -}}
+{{- range $group := .Site.Data.sidebar -}}
+    {{- $link := $group.title -}}
+    {{- $link_slug := $link | urlize -}}
+
+    {{- if $group.pages -}}
+      {{- $link = index $group.pages 0 -}}
+      {{- $link_slug = $link.title | urlize -}}
+    {{- end -}}
+
+    {{- $group_slug := $group.title | urlize -}}
+    {{- $is_active_group := eq $.Page.Params.group $group_slug -}}
+
+    {{- if $group.pages }}
+    <div class="mt-3">
+      <h6 >
+        {{ $group.title }}
+      </h6>
+
+      <div class="container">
+        {{- range $doc := $group.pages -}}
+          {{- $doc_slug := $doc.title | urlize -}}
+          {{- $is_active := and $is_active_group (eq $page_slug $doc_slug) -}}
+          {{- $href := printf "/%s/%s/" $group_slug $doc_slug }}
+          <div><small><a href="{{ $href }}" class="bd-links-link d-inline-block rounded{{ if $is_active }} active{{ end }}"{{ if $is_active }} aria-current="page"{{ end }}>{{ $doc.title }}</a></small></div>
+        {{- end }}
+      </div>
+    </div>
+  {{- end }}
+{{- end }}
+</ul>
+</div>
+
+
