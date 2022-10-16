@@ -37,7 +37,7 @@ jobs:
     - name: Build
       run: hugo
       
-    - name: Add .nojekyll
+    - name: Add .nojekyll to remove jekyll build
       run: touch docs/.nojekyll
 
     # Step 6 - Push our generated site to our gh-pages branch
