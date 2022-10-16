@@ -36,6 +36,9 @@ jobs:
     # Also specifies the theme we want to use
     - name: Build
       run: hugo
+      
+    - name: Add .nojekyll
+      run: touch docs/.nojekyll
 
     # Step 6 - Push our generated site to our gh-pages branch
     - name: Deploy
