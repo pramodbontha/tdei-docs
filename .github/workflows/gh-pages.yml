@@ -37,12 +37,13 @@ jobs:
     - name: Build
       run: hugo
       
-    - name: Add .nojekyll to remove jekyll build
+    - name: Add .nojekyll to remove jekyll build in github
       run: touch docs/.nojekyll
 
     # Step 6 - Push our generated site to our gh-pages branch
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
+      if: github.ref == 'refs/heads/main'
       with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
