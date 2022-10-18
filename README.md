@@ -44,7 +44,7 @@ baseURL=""
 
 - **How to add a markdown file**
 
-To add a new markdown to the application, go to the **content** and create a new markdown in any of the categories. Make sure you add the following template on the top of the markdown file
+To add a new markdown to the application, go to the **content** and create a new markdown file in any of the categories. The name of the file should match with page title in **sidebar.yml** file and with snake-case format. Example if the title is "CSS Variables" and the title should be "css-variables.md". Make sure you add the following template on the top of the markdown file
 
 ```
 ---
