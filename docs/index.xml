@@ -93,6 +93,19 @@ Source files Compile Bootstrap with your own asset pipeline by downloading our s
     </item>
     
     <item>
+      <title>RFS</title>
+      <link>https://pramodbontha.github.io/tdei-docs/getting-started/rfs/</link>
+      <pubDate>Thu, 13 Oct 2022 12:06:23 +0200</pubDate>
+      
+      <guid>https://pramodbontha.github.io/tdei-docs/getting-started/rfs/</guid>
+      <description>Download ready-to-use compiled code for Bootstrap v to easily drop into your project, which includes:
+This doesn&amp;rsquo;t include documentation, source files, or any optional JavaScript dependencies like Popper.
+Download
+Source files Compile Bootstrap with your own asset pipeline by downloading our source Sass, JavaScript, and documentation files. This option requires some additional tooling:
+[Sass compiler] for compiling Sass source files into CSS files Autoprefixer for CSS vendor prefixing Should you require our full set of [build tools], they are included for developing Bootstrap and its docs, but they&amp;rsquo;re likely unsuitable for your own purposes.</description>
+    </item>
+    
+    <item>
       <title>Vite</title>
       <link>https://pramodbontha.github.io/tdei-docs/getting-started/vite/</link>
       <pubDate>Thu, 13 Oct 2022 12:06:23 +0200</pubDate>
