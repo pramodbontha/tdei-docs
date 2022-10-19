@@ -1,15 +1,14 @@
 # Deployment workflow
 
-![tdei-docs workflow](https://user-images.githubusercontent.com/58882551/196048920-404c3be9-d0bd-4231-9c5d-bb73738a564a.png)
+![tedi-docs-deployment](https://user-images.githubusercontent.com/58882551/196803115-f5431ced-2a40-4aa0-8d0a-a5848a34cd3a.png)
 
-1. **Creating or Regenerating docs**
-After making the local development changes and changes are looking fine in the local server. Run the command *hugo* in the terminal. This will create a build content, which are static html files converted from markdown files by hugo.
 
-2. **Commit and Push to github repo**
-Once the docs folder content is updated from the above step, commit and push the docs folder content to github repo.
+1. **Adding new content**
+After adding the new file or new folder(category) in content folder and changes are looking fine, commit the files.
 
-3. **github-pages bot workflow job-1**
-The pushed changes will trigger the gihub pages bot workflows. Initially, it will copy the content from *docs* folder to *gh-pages* branch. From here other jobs with process the content.
+2. **Github workflow**
+This will trigger a workflow that will build new application content in the background.
 
-3. **github-pages bot workflow job-2**
-The content is build and deployed by github-pages workflow *"pages build and deployment"* which uses in built jekyll builder for static sites build and deployment from github.
+3. **Deployment**
+The workflow will build the project and upload the generated artifacts to gihub-pages and site with new changes will be deployed.
+
