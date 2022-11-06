@@ -49,9 +49,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo \
-            --minify
-            -b https://pramodbontha.github.io/tdei-docs
+          hugo -b https://pramodbontha.github.io/tdei-docs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
