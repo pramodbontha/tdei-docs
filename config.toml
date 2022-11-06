@@ -1,4 +1,4 @@
-baseURL = 'https://lucky-flan-c70f1c.netlify.app'
+baseURL = 'https://dev-tdei-docs.netlify.app'
 languageCode = 'en-us'
 title = 'tdei-docs'
 custom_css = ["css/custom.css"]
