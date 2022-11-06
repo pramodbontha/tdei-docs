@@ -51,6 +51,7 @@ jobs:
         run: |
           hugo \
             --minify
+            -b "https://pramodbontha.github.io/tdei-docs"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
