@@ -1,4 +1,4 @@
-baseURL = 'https://pramodbontha.github.io/tdei-docs/dev'
+baseURL = 'https://6367677852cfab18639f2d7e--lucky-flan-c70f1c.netlify.app'
 languageCode = 'en-us'
 title = 'tdei-docs'
 custom_css = ["css/custom.css"]
